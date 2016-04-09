@@ -1,0 +1,237 @@
+READING relation1.txt AND relation2.txt
+SIZE OF relation1.txt: 7 pages
+SIZE OF relation2.txt: 13 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Cannot perform in-memory join for relation1.txt and relation2.txt...
+HASHING ROUND 1...
+
+READING relation1.txt
+Tuple 1: 42 Mapped to bucket: 0
+Tuple 2: 68 Mapped to bucket: 5
+Tuple 3: 135 Mapped to bucket: 2
+Tuple 4: 101 Mapped to bucket: 3
+Tuple 5: 170 Mapped to bucket: 2
+Tuple 6: 125 Mapped to bucket: 6
+Tuple 7: 79 Mapped to bucket: 2
+Tuple 8: 159 Mapped to bucket: 5
+Tuple 9: 163 Mapped to bucket: 2
+Tuple 10: 65 Mapped to bucket: 2
+Tuple 11: 106 Mapped to bucket: 1
+Tuple 12: 146 Mapped to bucket: 6
+Tuple 13: 82 Mapped to bucket: 5
+Tuple 14: 28 Mapped to bucket: 0
+Tuple 15: 162 Mapped to bucket: 1
+Tuple 16: 92 Mapped to bucket: 1
+Tuple 17: 196 Mapped to bucket: 0
+Tuple 18: 143 Mapped to bucket: 3
+Tuple 19: 28 Mapped to bucket: 0
+Tuple 20: 37 Mapped to bucket: 2
+Tuple 21: 192 Mapped to bucket: 3
+Tuple 22: 5 Mapped to bucket: 5
+Tuple 23: 103 Mapped to bucket: 5
+Tuple 24: 154 Mapped to bucket: 0
+Tuple 25: 93 Mapped to bucket: 2
+Tuple 26: 183 Mapped to bucket: 1
+Tuple 27: 22 Mapped to bucket: 1
+Tuple 28: 117 Mapped to bucket: 5
+Tuple 29: 119 Mapped to bucket: 0
+Tuple 30: 96 Mapped to bucket: 5
+Tuple 31: 48 Mapped to bucket: 6
+Tuple 32: 127 Mapped to bucket: 1
+Tuple 33: 172 Mapped to bucket: 4
+Tuple 34: 139 Mapped to bucket: 6
+Tuple 35: 70 Mapped to bucket: 0
+Tuple 36: 113 Mapped to bucket: 1
+Tuple 37: 68 Mapped to bucket: 5
+Page for bucket 5 full. Flushed to secondary storage
+Tuple 38: 100 Mapped to bucket: 2
+Page for bucket 2 full. Flushed to secondary storage
+Tuple 39: 36 Mapped to bucket: 1
+Page for bucket 1 full. Flushed to secondary storage
+Tuple 40: 95 Mapped to bucket: 4
+Tuple 41: 104 Mapped to bucket: 6
+Tuple 42: 12 Mapped to bucket: 5
+Tuple 43: 123 Mapped to bucket: 4
+Tuple 44: 134 Mapped to bucket: 1
+Tuple 45: 74 Mapped to bucket: 4
+Tuple 46: 65 Mapped to bucket: 2
+Tuple 47: 142 Mapped to bucket: 2
+Tuple 48: 112 Mapped to bucket: 0
+Page for bucket 0 full. Flushed to secondary storage
+Tuple 49: 54 Mapped to bucket: 5
+Tuple 50: 69 Mapped to bucket: 6
+Page for bucket 1 is flushed to secondary storage
+Page for bucket 2 is flushed to secondary storage
+Page for bucket 3 is flushed to secondary storage
+Page for bucket 4 is flushed to secondary storage
+Page for bucket 5 is flushed to secondary storage
+Page for bucket 6 is flushed to secondary storage
+Done with relation1.txt
+
+Created the following files:
+relation1_bucket0.txt
+relation1_bucket1.txt
+relation1_bucket2.txt
+relation1_bucket3.txt
+relation1_bucket4.txt
+relation1_bucket5.txt
+relation1_bucket6.txt
+
+READING relation2.txt
+Tuple 1: 148 Mapped to bucket: 1
+Tuple 2: 45 Mapped to bucket: 3
+Tuple 3: 63 Mapped to bucket: 0
+Tuple 4: 158 Mapped to bucket: 4
+Tuple 5: 38 Mapped to bucket: 3
+Tuple 6: 60 Mapped to bucket: 4
+Tuple 7: 124 Mapped to bucket: 5
+Tuple 8: 142 Mapped to bucket: 2
+Tuple 9: 130 Mapped to bucket: 4
+Tuple 10: 179 Mapped to bucket: 4
+Page for bucket 4 full. Flushed to secondary storage
+Tuple 11: 117 Mapped to bucket: 5
+Tuple 12: 36 Mapped to bucket: 1
+Tuple 13: 191 Mapped to bucket: 2
+Tuple 14: 43 Mapped to bucket: 1
+Tuple 15: 89 Mapped to bucket: 5
+Tuple 16: 107 Mapped to bucket: 2
+Tuple 17: 41 Mapped to bucket: 6
+Tuple 18: 143 Mapped to bucket: 3
+Tuple 19: 65 Mapped to bucket: 2
+Page for bucket 2 full. Flushed to secondary storage
+Tuple 20: 49 Mapped to bucket: 0
+Tuple 21: 47 Mapped to bucket: 5
+Page for bucket 5 full. Flushed to secondary storage
+Tuple 22: 6 Mapped to bucket: 6
+Tuple 23: 91 Mapped to bucket: 0
+Tuple 24: 130 Mapped to bucket: 4
+Tuple 25: 171 Mapped to bucket: 3
+Page for bucket 3 full. Flushed to secondary storage
+Tuple 26: 151 Mapped to bucket: 4
+Tuple 27: 7 Mapped to bucket: 0
+Page for bucket 0 full. Flushed to secondary storage
+Tuple 28: 102 Mapped to bucket: 4
+Tuple 29: 194 Mapped to bucket: 5
+Tuple 30: 149 Mapped to bucket: 2
+Tuple 31: 30 Mapped to bucket: 2
+Tuple 32: 24 Mapped to bucket: 3
+Tuple 33: 85 Mapped to bucket: 1
+Page for bucket 1 full. Flushed to secondary storage
+Tuple 34: 155 Mapped to bucket: 1
+Tuple 35: 157 Mapped to bucket: 3
+Tuple 36: 41 Mapped to bucket: 6
+Tuple 37: 167 Mapped to bucket: 6
+Page for bucket 6 full. Flushed to secondary storage
+Tuple 38: 177 Mapped to bucket: 2
+Tuple 39: 132 Mapped to bucket: 6
+Tuple 40: 109 Mapped to bucket: 4
+Page for bucket 4 full. Flushed to secondary storage
+Tuple 41: 145 Mapped to bucket: 5
+Tuple 42: 40 Mapped to bucket: 5
+Tuple 43: 27 Mapped to bucket: 6
+Tuple 44: 124 Mapped to bucket: 5
+Page for bucket 5 full. Flushed to secondary storage
+Tuple 45: 138 Mapped to bucket: 5
+Tuple 46: 139 Mapped to bucket: 6
+Tuple 47: 119 Mapped to bucket: 0
+Tuple 48: 83 Mapped to bucket: 6
+Page for bucket 6 full. Flushed to secondary storage
+Tuple 49: 130 Mapped to bucket: 4
+Tuple 50: 142 Mapped to bucket: 2
+Page for bucket 2 full. Flushed to secondary storage
+Page for bucket 0 is flushed to secondary storage
+Page for bucket 1 is flushed to secondary storage
+Page for bucket 3 is flushed to secondary storage
+Page for bucket 4 is flushed to secondary storage
+Page for bucket 5 is flushed to secondary storage
+Done with relation2.txt
+
+Created the following files:
+relation2_bucket0.txt
+relation2_bucket1.txt
+relation2_bucket2.txt
+relation2_bucket3.txt
+relation2_bucket4.txt
+relation2_bucket5.txt
+relation2_bucket6.txt
+
+READING relation1_bucket0.txt AND relation2_bucket0.txt
+SIZE OF relation1_bucket0.txt: 1 pages
+SIZE OF relation2_bucket0.txt: 2 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket0.txt and relation2_bucket0.txt...
+119
+
+READING relation1_bucket1.txt AND relation2_bucket1.txt
+SIZE OF relation1_bucket1.txt: 2 pages
+SIZE OF relation2_bucket1.txt: 2 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket1.txt and relation2_bucket1.txt...
+36
+
+READING relation1_bucket2.txt AND relation2_bucket2.txt
+SIZE OF relation1_bucket2.txt: 2 pages
+SIZE OF relation2_bucket2.txt: 2 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket2.txt and relation2_bucket2.txt...
+65
+65
+142
+142
+
+READING relation1_bucket3.txt AND relation2_bucket3.txt
+SIZE OF relation1_bucket3.txt: 1 pages
+SIZE OF relation2_bucket3.txt: 2 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket3.txt and relation2_bucket3.txt...
+143
+
+READING relation1_bucket4.txt AND relation2_bucket4.txt
+SIZE OF relation1_bucket4.txt: 1 pages
+SIZE OF relation2_bucket4.txt: 3 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket4.txt and relation2_bucket4.txt...
+
+No matching tuples found! No further processing is required!
+
+READING relation1_bucket5.txt AND relation2_bucket5.txt
+SIZE OF relation1_bucket5.txt: 2 pages
+SIZE OF relation2_bucket5.txt: 3 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket5.txt and relation2_bucket5.txt...
+117
+
+READING relation1_bucket6.txt AND relation2_bucket6.txt
+SIZE OF relation1_bucket6.txt: 1 pages
+SIZE OF relation2_bucket6.txt: 2 pages
+TOTAL NUMBER OF AVAILABLE PAGES: 8
+NUMBER OF BUCKETS IN HASH TABLE: 7
+
+Performing in memory join for relation1_bucket6.txt and relation2_bucket6.txt...
+139
+
+TOTAL IO'S: 72
+RESULT OF JOIN
+119
+36
+65
+65
+142
+142
+143
+117
+139
